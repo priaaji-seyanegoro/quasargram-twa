@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "app.web.quasargram_c0a5a.twa",
+  "variantName": "release",
+  "elements": []
+}

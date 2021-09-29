@@ -1,0 +1,41 @@
+{
+  "packageId": "app.web.quasargram_c0a5a.twa",
+  "host": "quasargram-c0a5a.web.app",
+  "name": "quasargram-2",
+  "launcherName": "quasagram",
+  "display": "standalone",
+  "themeColor": "#027BE3",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://quasargram-c0a5a.web.app/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\Lawencon\\Documents\\sdks\\quasargram-twa\\android.keystore",
+    "alias": "quasargram-2.android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://quasargram-c0a5a.web.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "appVersion": "1"
+}

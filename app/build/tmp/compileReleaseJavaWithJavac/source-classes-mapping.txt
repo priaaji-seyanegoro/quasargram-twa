@@ -1,0 +1,8 @@
+app/web/quasargram_c0a5a/twa/Application.java
+ app.web.quasargram_c0a5a.twa.Application
+app/web/quasargram_c0a5a/twa/DelegationService.java
+ app.web.quasargram_c0a5a.twa.DelegationService
+app/web/quasargram_c0a5a/twa/LauncherActivity.java
+ app.web.quasargram_c0a5a.twa.LauncherActivity
+app/web/quasargram_c0a5a/twa/BuildConfig.java
+ app.web.quasargram_c0a5a.twa.BuildConfig

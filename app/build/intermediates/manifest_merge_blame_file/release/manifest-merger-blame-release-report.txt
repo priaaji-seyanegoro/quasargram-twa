@@ -1,0 +1,298 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="app.web.quasargram_c0a5a.twa"
+26    android:versionCode="1"
+27    android:versionName="1" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+30-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml
+31        android:targetSdkVersion="30" />
+31-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml
+32
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->[com.google.androidbrowserhelper:locationdelegation:1.0.1] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\6533a4776060e2dafc326b30a0222ee1\locationdelegation-1.0.1\AndroidManifest.xml:11:5-79
+33-->[com.google.androidbrowserhelper:locationdelegation:1.0.1] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\6533a4776060e2dafc326b30a0222ee1\locationdelegation-1.0.1\AndroidManifest.xml:11:22-76
+34
+35    <queries>
+35-->[com.google.androidbrowserhelper:androidbrowserhelper:2.2.1] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\43500dace97d54a90d7f296959ce8d3a\androidbrowserhelper-2.2.1\AndroidManifest.xml:26:5-34:15
+36        <intent>
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.2.1] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\43500dace97d54a90d7f296959ce8d3a\androidbrowserhelper-2.2.1\AndroidManifest.xml:27:9-33:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:122:17-68
+37-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:122:25-66
+38
+39            <category android:name="android.intent.category.BROWSABLE" />
+39-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:124:17-77
+39-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:124:27-75
+40
+41            <data android:scheme="https" />
+41-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:125:17-126:54
+41-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:125:23-45
+42        </intent>
+43    </queries>
+44
+45    <application
+45-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:29:5-168:19
+46        android:name="app.web.quasargram_c0a5a.twa.Application"
+46-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:30:9-35
+47        android:allowBackup="true"
+47-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:31:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.1.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\e601daed4ba62929db8b322b2974c8f8\core-1.1.0\AndroidManifest.xml:24:18-86
+49        android:icon="@mipmap/ic_launcher"
+49-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:32:9-43
+50        android:label="@string/appName"
+50-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:33:9-40
+51        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+51-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:35:9-105
+52        android:supportsRtl="true"
+52-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:37:9-35
+53        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+53-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:38:9-68
+54        <meta-data
+54-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:40:9-42:58
+55            android:name="asset_statements"
+55-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:41:13-44
+56            android:resource="@string/assetStatements" />
+56-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:42:13-55
+57        <meta-data
+57-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:45:13-47:58
+58            android:name="web_manifest_url"
+58-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:46:17-48
+59            android:value="@string/webManifestUrl" />
+59-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:47:17-55
+60        <meta-data
+60-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:50:9-52:52
+61            android:name="twa_generator"
+61-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:51:13-41
+62            android:value="@string/generatorApp" />
+62-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:52:13-49
+63
+64        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+64-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:55:13-59:24
+64-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:55:23-104
+65            <meta-data
+65-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:56:13-58:53
+66                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+66-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:57:17-83
+67                android:value="@string/launchUrl" />
+67-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:58:17-50
+68        </activity>
+69        <activity
+69-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:62:9-130:20
+70            android:name="app.web.quasargram_c0a5a.twa.LauncherActivity"
+70-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:62:19-50
+71            android:alwaysRetainTaskState="true"
+71-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:63:13-49
+72            android:label="@string/launcherName" >
+72-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:64:13-49
+73            <meta-data
+73-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:65:13-66:53
+74                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+74-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:65:24-85
+75                android:value="@string/launchUrl" />
+75-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:66:17-50
+76            <meta-data
+76-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:68:13-70:58
+77                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+77-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:69:17-83
+78                android:resource="@color/colorPrimary" />
+78-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:70:17-55
+79            <meta-data
+79-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:72:13-74:61
+80                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+80-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:73:17-87
+81                android:resource="@color/navigationColor" />
+81-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:74:17-58
+82            <meta-data
+82-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:76:13-78:65
+83                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+83-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:77:17-92
+84                android:resource="@color/navigationColorDark" />
+84-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:78:17-62
+85            <meta-data
+85-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:80:13-82:68
+86                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+86-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:81:17-84
+87                android:resource="@color/navigationDividerColor" />
+87-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:82:17-65
+88            <meta-data
+88-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:84:13-86:72
+89                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+89-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:85:17-89
+90                android:resource="@color/navigationDividerColorDark" />
+90-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:86:17-69
+91            <meta-data
+91-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:88:13-89:54
+92                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+92-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:88:24-95
+93                android:resource="@drawable/splash" />
+93-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:89:17-52
+94            <meta-data
+94-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:91:13-92:60
+95                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+95-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:91:24-104
+96                android:resource="@color/backgroundColor" />
+96-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:92:17-58
+97            <meta-data
+97-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:94:13-95:71
+98                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+98-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:94:24-105
+99                android:value="@integer/splashScreenFadeOutDuration" />
+99-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:95:17-69
+100            <meta-data
+100-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:97:13-98:60
+101                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+101-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:97:24-97
+102                android:value="@string/providerAuthority" />
+102-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:98:17-58
+103            <meta-data
+103-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:100:13-97
+104                android:name="android.app.shortcuts"
+104-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:100:24-60
+105                android:resource="@xml/shortcuts" />
+105-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:100:61-94
+106            <meta-data
+106-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:102:13-103:56
+107                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+107-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:102:24-91
+108                android:value="@string/fallbackType" />
+108-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:103:17-53
+109            <meta-data
+109-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:109:13-110:54
+110                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+110-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:109:24-92
+111                android:value="@string/orientation" />
+111-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:110:17-52
+112
+113            <intent-filter>
+113-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:116:13-119:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:117:17-69
+114-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:117:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:118:17-77
+116-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:118:27-74
+117            </intent-filter>
+118            <intent-filter android:autoVerify="true" >
+118-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:121:13-127:29
+118-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:121:28-53
+119                <action android:name="android.intent.action.VIEW" />
+119-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:122:17-68
+119-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:122:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:123:17-76
+121-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:123:27-73
+122                <category android:name="android.intent.category.BROWSABLE" />
+122-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:124:17-77
+122-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:124:27-75
+123
+124                <data
+124-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:125:17-126:54
+125                    android:host="@string/hostName"
+125-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:126:21-52
+126                    android:scheme="https" />
+126-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:125:23-45
+127            </intent-filter>
+128        </activity>
+129        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+129-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:132:9-90
+129-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:132:19-87
+130        <activity
+130-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:134:9-135:62
+131            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+131-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:134:19-97
+132            android:configChanges="orientation|screenSize" />
+132-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:135:13-59
+133
+134        <provider
+134-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:137:9-145:20
+135            android:name="androidx.core.content.FileProvider"
+135-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:138:13-62
+136            android:authorities="@string/providerAuthority"
+136-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:139:13-60
+137            android:exported="false"
+137-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:141:13-37
+138            android:grantUriPermissions="true" >
+138-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:140:13-47
+139            <meta-data
+139-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:142:13-144:53
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:143:17-67
+141                android:resource="@xml/filepaths" />
+141-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:144:17-50
+142        </provider>
+143
+144        <service
+144-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:147:9-162:19
+145            android:name="app.web.quasargram_c0a5a.twa.DelegationService"
+145-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:148:13-46
+146            android:enabled="@bool/enableNotification"
+146-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:149:13-55
+147            android:exported="@bool/enableNotification" >
+147-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:150:13-56
+148            <meta-data
+148-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:153:17-155:73
+149                android:name="android.support.customtabs.trusted.SMALL_ICON"
+149-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:154:21-81
+150                android:resource="@drawable/ic_notification_icon" />
+150-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:155:21-70
+151
+152            <intent-filter>
+152-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:158:13-161:29
+153                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+153-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:159:17-105
+153-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:159:25-103
+154
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:123:17-76
+155-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:123:27-73
+156            </intent-filter>
+157        </service>
+158
+159        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity" />
+159-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:165:13-166:89
+159-->C:\Users\Lawencon\Documents\sdks\quasargram-twa\app\src\main\AndroidManifest.xml:165:23-123
+160        <activity
+160-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+161            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+161-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+163-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lawencon\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+168    </application>
+169
+170</manifest>
